@@ -1,0 +1,47 @@
+.qodo
+/screenshots
+/env
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# Virtual environment folders
+.venv/
+venv/
+
+# Playwright stuff
+playwright-report/
+test-results/
+*.log
+*.zip
+.traces/
+trace.zip
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter or other notebooks
+*.ipynb
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Personal config files
+*.local
+*.sublime-workspace
